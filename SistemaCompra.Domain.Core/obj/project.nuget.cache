@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "fwSuCoy9BVgX57CJGnfFwcJVJemqkrWrP3Kpa1TSdDzjt/XuvVsw6afW3dNGQTWQvaFQNf+eRCu1yjoSJ+y4rg==",
+  "dgSpecHash": "0GoPXSl0tzAMGR+Ef1KAP2MBtpijNu9gW8v+xzeSPJqNI73uXvcrq7saE6p3n2ZzFVftFMdaLb6IvHgknNQSHQ==",
   "success": true,
-  "projectFilePath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/SistemaCompra.Domain.Core.csproj",
+  "projectFilePath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/adrielavelar/.nuget/packages/mediatr/8.0.0/mediatr.8.0.0.nupkg.sha512",
-    "/Users/adrielavelar/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/adrielavelar/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\U002128\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\U002128\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\U002128\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\U002128\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,36 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj": {}
+    "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.API\\SistemaCompra.API.csproj": {}
   },
   "projects": {
-    "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj": {
+    "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.API\\SistemaCompra.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj",
+        "projectUniqueName": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.API\\SistemaCompra.API.csproj",
         "projectName": "SistemaCompra.API",
-        "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.API/SistemaCompra.API.csproj",
-        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.API/obj/",
+        "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.API\\SistemaCompra.API.csproj",
+        "packagesPath": "C:\\Users\\U002128\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adrielavelar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\U002128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj": {
-                "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj"
+              "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj": {
+                "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj"
               },
-              "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
-                "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj"
+              "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
+                "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj"
               }
             }
           }
@@ -104,20 +106,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[3.1.23, 3.1.23]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -126,37 +114,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj": {
+    "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj",
+        "projectUniqueName": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
         "projectName": "SistemaCompra.Application",
-        "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj",
-        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/obj/",
+        "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
+        "packagesPath": "C:\\Users\\U002128\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adrielavelar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\U002128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
-                "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj"
+              "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
               },
-              "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
-                "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj"
+              "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
+                "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj"
               }
             }
           }
@@ -200,26 +190,28 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/SistemaCompra.Domain.Core.csproj": {
+    "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/SistemaCompra.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
         "projectName": "SistemaCompra.Domain.Core",
-        "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/SistemaCompra.Domain.Core.csproj",
-        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/obj/",
+        "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\U002128\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adrielavelar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\U002128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -247,6 +239,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -259,34 +255,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
+    "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
         "projectName": "SistemaCompra.Domain",
-        "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj",
-        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/obj/",
+        "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj",
+        "packagesPath": "C:\\Users\\U002128\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adrielavelar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\U002128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/SistemaCompra.Domain.Core.csproj": {
-                "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/SistemaCompra.Domain.Core.csproj"
+              "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj": {
+                "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain.Core\\SistemaCompra.Domain.Core.csproj"
               }
             }
           }
@@ -301,6 +299,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -318,34 +320,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
+    "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj",
         "projectName": "SistemaCompra.Infra.Data",
-        "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj",
-        "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-        "outputPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/obj/",
+        "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\U002128\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/adrielavelar/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\U002128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
-                "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj"
+              "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
               }
             }
           }
@@ -399,7 +403,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,3 +24,13 @@ C:/Projetos/SistemaCompras-v3/SistemaCompra.Domain.Core/obj/Debug/netstandard2.0
 /Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/obj/Debug/netstandard2.0/SistemaCompra.Domain.Core.dll
 /Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/obj/Debug/netstandard2.0/SistemaCompra.Domain.Core.pdb
 /Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain.Core/obj/Debug/netstandard2.0/SistemaCompra.Domain.Core.csproj.AssemblyReference.cache
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.deps.json
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.dll
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\bin\Debug\netstandard2.0\SistemaCompra.Domain.Core.pdb
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.csproj.AssemblyReference.cache
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.AssemblyInfoInputs.cache
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.AssemblyInfo.cs
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.dll
+C:\Projetos\Estudos\sistemacompras\SistemaCompra.Domain.Core\obj\Debug\netstandard2.0\SistemaCompra.Domain.Core.pdb

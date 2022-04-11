@@ -80,7 +80,7 @@ namespace SistemaCompra.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SolicitacaoCompra");
+                    b.ToTable("Solicitacoes");
                 });
 
             modelBuilder.Entity("SistemaCompra.Domain.ProdutoAggregate.Produto", b =>
@@ -127,7 +127,7 @@ namespace SistemaCompra.API.Migrations
 
                             b1.HasKey("SolicitacaoCompraId");
 
-                            b1.ToTable("SolicitacaoCompra");
+                            b1.ToTable("Solicitacoes");
 
                             b1.WithOwner()
                                 .HasForeignKey("SolicitacaoCompraId");
@@ -144,7 +144,7 @@ namespace SistemaCompra.API.Migrations
 
                             b1.HasKey("SolicitacaoCompraId");
 
-                            b1.ToTable("SolicitacaoCompra");
+                            b1.ToTable("Solicitacoes");
 
                             b1.WithOwner()
                                 .HasForeignKey("SolicitacaoCompraId");
@@ -161,7 +161,7 @@ namespace SistemaCompra.API.Migrations
 
                             b1.HasKey("SolicitacaoCompraId");
 
-                            b1.ToTable("SolicitacaoCompra");
+                            b1.ToTable("Solicitacoes");
 
                             b1.WithOwner()
                                 .HasForeignKey("SolicitacaoCompraId");
@@ -178,7 +178,7 @@ namespace SistemaCompra.API.Migrations
 
                             b1.HasKey("SolicitacaoCompraId");
 
-                            b1.ToTable("SolicitacaoCompra");
+                            b1.ToTable("Solicitacoes");
 
                             b1.WithOwner()
                                 .HasForeignKey("SolicitacaoCompraId");

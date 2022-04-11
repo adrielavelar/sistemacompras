@@ -14,8 +14,9 @@ namespace SistemaCompra.Application.Produto.Command.AtualizarPreco
 
         public AtualizarPrecoCommandHandler(ProdutoAgg.IProdutoRepository produtoRepository, IUnitOfWork uow, IMediator mediator) : base(uow, mediator)
         {
-            this._produtoRepository = produtoRepository;
+            _produtoRepository = produtoRepository;
         }
+
         public Task<bool> Handle(AtualizarPrecoCommand request, CancellationToken cancellationToken)
         {
             var produto = _produtoRepository.Obter(request.Id);

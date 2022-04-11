@@ -15,6 +15,15 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "FluentValidation/10.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "MediatR/8.0.0": {
         "type": "package",
         "compile": {
@@ -792,7 +801,7 @@
           "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.7.0": {
+      "System.ComponentModel.Annotations/5.0.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.ComponentModel.Annotations.dll": {}
@@ -1879,6 +1888,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "FluentValidation": "10.4.0",
           "SistemaCompra.Domain.Core": "1.0.0"
         },
         "compile": {
@@ -1892,7 +1902,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MediatR": "8.0.0"
+          "MediatR": "8.0.0",
+          "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
           "bin/placeholder/SistemaCompra.Domain.Core.dll": {}
@@ -1936,6 +1947,27 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "FluentValidation/10.4.0": {
+      "sha512": "rVI1b5L3pq3layrRKIo3N7AT3PWey8ocPZhf6zeHYf6LBBvnP1KzW3bm7KmeazOWW8m1KXMD+shfviIcKSgQ0g==",
+      "type": "package",
+      "path": "fluentvalidation/10.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "MediatR/8.0.0": {
@@ -3334,13 +3366,14 @@
         "system.componentmodel.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.7.0": {
-      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
+    "System.ComponentModel.Annotations/5.0.0": {
+      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.7.0",
+      "path": "system.componentmodel.annotations/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -3417,7 +3450,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
+        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -6618,35 +6651,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/adrielavelar/.nuget/packages/": {}
+    "C:\\Users\\U002128\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj",
+      "projectUniqueName": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
       "projectName": "SistemaCompra.Application",
-      "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/SistemaCompra.Application.csproj",
-      "packagesPath": "/Users/adrielavelar/.nuget/packages/",
-      "outputPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Application/obj/",
+      "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\SistemaCompra.Application.csproj",
+      "packagesPath": "C:\\Users\\U002128\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/adrielavelar/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\U002128\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj": {
-              "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Domain/SistemaCompra.Domain.csproj"
+            "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Domain\\SistemaCompra.Domain.csproj"
             },
-            "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj": {
-              "projectPath": "/Users/adrielavelar/Downloads/teste-pratico/SistemaCompras-v3/SistemaCompra.Infra.Data/SistemaCompra.Infra.Data.csproj"
+            "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj": {
+              "projectPath": "C:\\Projetos\\Estudos\\sistemacompras\\SistemaCompra.Infra.Data\\SistemaCompra.Infra.Data.csproj"
             }
           }
         }
@@ -6690,7 +6725,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

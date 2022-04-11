@@ -16,13 +16,13 @@ namespace SistemaCompra.Domain.ProdutoAggregate
 
         private Produto(){}
 
-        public Produto(string nome, string descricao, string categoria, decimal preco)
+        public Produto(string nome, string descricao, Categoria categoria, decimal preco)
         {
             Id = Guid.NewGuid();
             Nome = nome ?? throw new ArgumentNullException(nameof(nome));
             Descricao = descricao ?? throw new ArgumentNullException(nameof(descricao));
             Preco = new Money(preco);
-            Categoria = (Categoria) Enum.Parse(typeof(Categoria), categoria);
+            Categoria =  categoria;
             Situacao = Situacao.Ativo;
         }
 

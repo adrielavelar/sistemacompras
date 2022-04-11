@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace SistemaCompra.Domain.Core.Model
 {
+    [NotMapped]
     public class Money : ValueObject<Money>
     {
         public readonly decimal Value;
